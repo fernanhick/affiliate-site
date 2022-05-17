@@ -1,0 +1,39 @@
+.navbar {
+    height: 4rem;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 2rem 0rem;
+}
+.logo {
+    margin-left: 3rem;
+    color: white;
+    font-size: 3rem;
+}
+.logo :nth-child(1) {
+    color: var(--mustard);
+    text-transform: uppercase;
+}
+
+.nav-list {
+    height: 2.5rem;
+    background-color: var(--mustard);
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 0 10vw;
+}
+.nav-list > li {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+}
+.nav-list > li > a:hover {
+    color: var(--black);
+}
+.nav-list > li > a {
+    text-decoration: none;
+    color: var(--white);
+}

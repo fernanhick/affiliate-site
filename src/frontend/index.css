@@ -7,7 +7,7 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--light-grey);
+    background-color: var(--white);
 }
 
 *,
@@ -36,4 +36,56 @@ html {
     flex-grow: 1;
     flex-direction: column;
     height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    * {
+        font-size: 0.9rem;
+    }
+}
+.visible {
+    display: block !important;
+}
+
+/* **********SECTIONS DEFAULT STYLING ************/
+
+.section {
+    /* width: 100%;
+    height: 100%; */
+    padding: 2% 4%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.item-box {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px rgb(185, 185, 185);
+    flex: 1 1 23%;
+    width: 300px;
+    height: 300px;
+    min-width: 13em;
+    max-width: 23.5em;
+}
+.item-box h1 {
+    font-size: 1.2rem;
+
+    text-align: center;
+    min-height: 2.5rem;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+.item-box .price {
+    padding-top: 5px;
+}
+
+.section-banner {
+    min-width: 100%;
+    min-height: 20vh;
+    border: 1px solid;
 }

@@ -23,9 +23,6 @@ function Navbar() {
                 <li>
                     <Link to="/footwear">footwear</Link>
                 </li>
-                <li>
-                    <Link to="/digital">digital</Link>
-                </li>
             </div>
         </>
     );

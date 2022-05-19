@@ -20,7 +20,6 @@ root.render(
                 <Route path="/footwear" element={<Footwear />} />
                 <Route path="/electronics" element={<Electronics />} />
                 <Route path="/clothing" element={<Clothing />} />
-                <Route path="/digital" element={<Digital />} />
             </Routes>
         </Router>
     </React.StrictMode>

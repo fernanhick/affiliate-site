@@ -26,7 +26,7 @@ code {
     --mustard: rgb(212, 173, 0);
     --light-mustard: rgb(214, 194, 105);
     --grey: rgb(59, 59, 59);
-    --light-grey: rgb(214, 214, 214);
+    --light-grey: rgb(241, 241, 241);
     --black: black;
     --white: white;
     box-sizing: border-box;
@@ -50,15 +50,18 @@ html {
 /* **********SECTIONS DEFAULT STYLING ************/
 
 .section {
-    /* width: 100%;
-    height: 100%; */
+    min-height: 100vh;
     padding: 2% 4%;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 41vh;
+    padding-top: 43vh;
+}
+.section a {
+    text-decoration: none;
+    color: black;
 }
 .item-box {
     /*     padding: 1rem;
@@ -66,15 +69,26 @@ html {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: var(--white);
-    border-radius: 5px;
+    background-color: var(--light-grey);
+    /*     border-radius: 5px;
     box-shadow: 0px 0px 10px 3px rgb(185, 185, 185);
+ */
     flex: 1 1 23%;
     width: 300px;
-    height: 300px;
-    min-width: 13em;
+    min-height: 35vh;
+    min-width: 14em;
     max-width: 23.5em;
+    margin-bottom: 3rem;
 }
+
+.item-box:hover {
+    box-shadow: 0px 0px 10px 3px rgb(185, 185, 185);
+}
+
+.item-box > img {
+    max-height: 28vh;
+}
+
 .item-box h1 {
     padding: 1%;
     font-size: 1.2rem;
@@ -85,8 +99,11 @@ html {
     min-height: 2.5rem;
     text-transform: uppercase;
 }
-.item-box > * {
+.item-box > h1,
+p {
     padding: 10px;
+}
+.desc {
 }
 
 .section-banner {
@@ -96,6 +113,7 @@ html {
     min-height: 15vh;
     display: flex;
     align-items: center;
+    background-color: var(--mustard);
 }
 .section-banner img {
     flex: 1 1 0;
@@ -103,6 +121,6 @@ html {
 @media screen and (max-width: 1000px) {
     .section {
         transition: 0.5 all;
-        padding-top: 30vh;
+        padding-top: 32vh;
     }
 }

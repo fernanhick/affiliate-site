@@ -6,8 +6,8 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Footwear from "./components/footwear/Footwear";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Electronics from "./components/electronics/Electronics";
-import Digital from "./components/digital/Digital";
 import Clothing from "./components/clothing/Clothing";
+import Footbar from "./components/footbar/Footbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +21,7 @@ root.render(
                 <Route path="/electronics" element={<Electronics />} />
                 <Route path="/clothing" element={<Clothing />} />
             </Routes>
+            <Footbar />
         </Router>
     </React.StrictMode>
 );

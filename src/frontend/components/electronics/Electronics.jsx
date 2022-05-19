@@ -8,15 +8,18 @@ function Electronics() {
             <div className="section-banner">
                 <img width="100%" height="100%" src={banner} />
             </div>
-            <div className="electronics section">
+            <div className="footwear section">
                 {itemsData.map((item) => (
-                    <div className="item-box" key={item.name}>
-                        <h1>{item.name}</h1>
-                        <p className="price">Price: {item.price}</p>
-                        <p className="descrition">
-                            Description: {item.description}
-                        </p>
-                    </div>
+                    <a key={item.link} href={item.link}>
+                        <div className="item-box">
+                            <img src={item.image} />
+                            <div className="desc">
+                                {" "}
+                                <h1>{item.name}</h1>
+                                <p className="price">Price: {item.price}</p>
+                            </div>
+                        </div>
+                    </a>
                 ))}
             </div>
         </>

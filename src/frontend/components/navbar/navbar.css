@@ -22,16 +22,17 @@
 .nav-list {
     background-color: var(--mustard);
     display: flex;
-    gap: 2rem;
-    /*     top: 7vh;
- */
+    gap: 1.8rem;
     width: 100%;
-    /*     position: fixed;
- */
     align-items: center;
-    flex-wrap: wrap;
     padding: 2vh 5vw;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: thin;
 }
+/* .nav-list::-webkit-scrollbar {
+    display: none;
+} */
 .nav-list > li {
     list-style: none;
     text-transform: uppercase;

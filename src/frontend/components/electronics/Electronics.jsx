@@ -12,12 +12,8 @@ function Electronics() {
                 {itemsData.map((item) => (
                     <a key={item.link} href={item.link}>
                         <div className="item-box">
-                            <img src={item.image} />
-                            <div className="desc">
-                                {" "}
-                                <h1>{item.name}</h1>
-                                <p className="price">Price: {item.price}</p>
-                            </div>
+                            <img src={item.image} /> <h1>{item.name}</h1>
+                            <p className="price">Price: {item.price}</p>
                         </div>
                     </a>
                 ))}

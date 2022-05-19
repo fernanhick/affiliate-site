@@ -11,6 +11,7 @@
     height: 6vh;
     border-radius: 50%;
     border: 2px solid white;
+    transform: rotate(-15deg);
 }
 .social-media {
     display: flex;

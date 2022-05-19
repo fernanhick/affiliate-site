@@ -58,7 +58,7 @@ html {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 40vh;
+    padding-top: 41vh;
 }
 .item-box {
     /*     padding: 1rem;
@@ -90,7 +90,7 @@ html {
 }
 
 .section-banner {
-    top: 13vh;
+    top: 15.5vh;
     position: absolute;
     min-width: 100%;
     min-height: 15vh;

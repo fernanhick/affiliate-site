@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Electronics from "./components/electronics/Electronics";
 import Clothing from "./components/clothing/Clothing";
 import Footbar from "./components/footbar/Footbar";
+import Home from "./components/home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,8 +16,7 @@ root.render(
         <Router>
             <Navbar />
             <Routes>
-                {" "}
-                <Route exact path="/" element={<Footwear />} />
+                <Route exact path="/home" element={<Home />} />
                 <Route path="/footwear" element={<Footwear />} />
                 <Route path="/electronics" element={<Electronics />} />
                 <Route path="/clothing" element={<Clothing />} />

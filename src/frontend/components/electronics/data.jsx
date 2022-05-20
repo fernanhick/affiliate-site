@@ -55,4 +55,32 @@ export const itemsData = [
         link: "https://amzn.to/3NgIL9M",
         brand: "Apple",
     },
+    {
+        name: "ASUS TUF Gaming FX506HCB 15.6inch 144Hz Intel i5-11400H, Nvidia GeForce RTX 3050, 8GB RAM, 512GB SSD",
+        image: "https://m.media-amazon.com/images/I/61oglkl45CL._AC_SX425_.jpg",
+        price: "£649.99",
+        link: "https://amzn.to/3MFjF4E",
+        brand: "ASUS",
+    },
+    {
+        name: "AOC Gaming 24G2U -24 Inch FHD Monitor, 144Hz, 1ms, IPS, AMD FreeSync",
+        image: "https://m.media-amazon.com/images/I/71QFFU--5zL._AC_SX425_.jpg",
+        price: "£159.00",
+        link: "https://amzn.to/3PyiIN9",
+        brand: "AOC",
+    },
+    {
+        name: "LG Full HD Gaming Monitor 22MK400H - 22 inch, 60 Hz, 1 ms, 1920X1080 px",
+        image: "https://m.media-amazon.com/images/I/51KIfWbhXwL._AC_SX425_.jpg",
+        price: "£89.90",
+        link: "https://amzn.to/39EJ7Ix",
+        brand: "LG",
+    },
+    {
+        name: "AOC Gaming Q27G2S - 27 Inch QHD Monitor, 165Hz, 1ms, IPS, FreeSync, Gsync Compatible",
+        image: "https://m.media-amazon.com/images/I/81G3yCN5k+L._AC_SX425_.jpg",
+        price: "£239.95",
+        link: "https://amzn.to/3MzcieV",
+        brand: "AOC",
+    },
 ];

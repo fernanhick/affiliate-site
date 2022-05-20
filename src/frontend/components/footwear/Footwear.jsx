@@ -4,7 +4,6 @@ import "./footwear.css";
 const banner = require("./images/f-banner-1900x200.jpg");
 
 function Footwear() {
-    console.log(itemsData);
     return (
         <>
             <div className="section-banner">

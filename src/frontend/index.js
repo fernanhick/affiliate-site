@@ -16,7 +16,7 @@ root.render(
         <Router>
             <Navbar />
             <Routes>
-                <Route exact path="/home" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/footwear" element={<Footwear />} />
                 <Route path="/electronics" element={<Electronics />} />
                 <Route path="/clothing" element={<Clothing />} />

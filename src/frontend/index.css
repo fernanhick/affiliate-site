@@ -42,6 +42,9 @@ html {
     * {
         font-size: 0.9rem;
     }
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 .visible {
     display: block !important;
@@ -58,7 +61,7 @@ html {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 43vh;
+    padding-top: 37vh;
 }
 .section a {
     text-decoration: none;
@@ -84,7 +87,7 @@ html {
     max-height: 20em;
 }
 
-.item-box h1 {
+.item-box > h1 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 5px;
@@ -106,16 +109,26 @@ html {
 .section-banner {
     top: 13vh;
     position: absolute;
-    min-width: 100%;
+    /*     min-width: 100%;
+ */
     min-height: 15vh;
     display: flex;
     align-items: center;
     background-color: var(--mustard);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .section {
         transition: 0.5 all;
-        padding-top: 30vh 0px 2vh 0px;
+        padding-top: 30vh;
+    }
+    .section-banner > img {
+        min-height: 7vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section {
+        transition: 0.5 all;
+        padding-top: 32vh;
     }
 }

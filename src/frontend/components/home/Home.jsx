@@ -88,27 +88,6 @@ function Home() {
                         </span>
                     </div>
                 </div>
-                {/* <div className="sections-box section-footwear">
-                    <div className="section-header">
-                        <h1>Footwear</h1>
-                    </div>
-                    <div className="section-body">
-                        <p>
-                            Find all the electronics devices picked from the
-                            bestesellers and best reviews gathered through the
-                            different websites in the internet
-                        </p>
-                    </div>
-                    <div className="section-footer">
-                        <span>
-                            products included: Laptops, Monitors, Portable
-                            drives...
-                        </span>
-                        <div className="section-link">
-                            <Link to="/footwear">Find out more </Link>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     );

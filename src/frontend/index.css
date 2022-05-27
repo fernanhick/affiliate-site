@@ -61,7 +61,8 @@ html {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 37vh;
+    /*     padding-top: 37vh;
+ */
 }
 .section a {
     text-decoration: none;
@@ -71,9 +72,11 @@ html {
     display: flex;
     justify-content: end;
     flex-direction: column;
-    max-width: 15.5em;
-    margin-bottom: 3rem;
-    min-height: 20em;
+    flex: 1 1 0;
+    max-width: 13.5em;
+    margin-bottom: 1rem;
+    max-height: 16em;
+    min-height: 14em;
 }
 
 .item-box:hover {
@@ -81,34 +84,38 @@ html {
 }
 
 .item-box > img {
-    max-height: 12em;
+    max-height: 10em;
+    max-width: 12em;
+    align-self: center;
+}
+.clothing .item-box {
 }
 .clothing .item-box img {
-    max-height: 20em;
+    max-height: 10rem;
+    max-width: 9rem;
+    align-self: center;
 }
 
 .item-box > h1 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 5px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     align-items: center;
     justify-content: center;
     min-height: 2.5rem;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 5px;
 }
 
 .item-box p {
     background-color: var(--light-grey);
-    padding: 10px;
+    padding: 5px;
 }
 
 /* **************BANNER*************** */
 
 .section-banner {
-    top: 13vh;
-    position: absolute;
     min-width: 100%;
     min-height: 15vh;
     display: flex;
@@ -119,15 +126,31 @@ html {
 @media screen and (max-width: 800px) {
     .section {
         transition: 0.5 all;
-        padding-top: 30vh;
     }
     .section-banner > img {
         min-height: 7vh;
+    }
+    .item-box > h1 {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+    .item-box > img {
+        max-height: 7em;
+        max-width: 9em;
+    }
+    .item-box p {
+        font-size: 0.7rem;
+        padding: 0.3rem;
+    }
+    .clothing > .item-box img {
+        max-height: 12em;
+        max-width: 8em;
     }
 }
 @media screen and (max-width: 500px) {
     .section {
         transition: 0.5 all;
-        padding-top: 32vh;
+        /*         padding-top: 32vh;
+ */
     }
 }

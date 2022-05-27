@@ -49,7 +49,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    position: fixed;
     width: 100%;
     z-index: 1;
 }

@@ -54,15 +54,12 @@ html {
 
 .section {
     min-height: 100vh;
-    padding: 2% 2%;
-
+    padding: 3vh 10vw;
     display: flex;
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*     padding-top: 37vh;
- */
 }
 .section a {
     text-decoration: none;
@@ -88,8 +85,7 @@ html {
     max-width: 12em;
     align-self: center;
 }
-.clothing .item-box {
-}
+
 .clothing .item-box img {
     max-height: 10rem;
     max-width: 9rem;
@@ -126,6 +122,7 @@ html {
 @media screen and (max-width: 800px) {
     .section {
         transition: 0.5 all;
+        padding: 3vh 1vw;
     }
     .section-banner > img {
         min-height: 7vh;
@@ -150,7 +147,5 @@ html {
 @media screen and (max-width: 500px) {
     .section {
         transition: 0.5 all;
-        /*         padding-top: 32vh;
- */
     }
 }

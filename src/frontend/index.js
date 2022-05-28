@@ -4,7 +4,7 @@ import "./index.css";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import Footwear from "./components/footwear/Footwear";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Electronics from "./components/electronics/Electronics";
 import Clothing from "./components/clothing/Clothing";
 import Footbar from "./components/footbar/Footbar";

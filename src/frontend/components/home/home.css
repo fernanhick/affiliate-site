@@ -7,12 +7,20 @@
 .hero-section {
     min-height: 9em;
     width: 100%;
-    background-color: var(--mustard);
+    background: linear-gradient(
+        34deg,
+        rgb(255, 255, 255) 0%,
+        rgba(212, 173, 0, 1) 50%
+    );
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    padding: 0.2rem;
 }
+
 .hero-wrapper {
+    background-color: var(--mustard);
+
     align-items: center;
     flex-direction: column;
     min-height: 100%;

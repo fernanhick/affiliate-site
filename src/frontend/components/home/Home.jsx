@@ -6,11 +6,10 @@ const eblock = require("./images/e-block.jpg");
 const cblock = require("./images/c-block.jpg");
 function Home() {
     return (
-        <div className="home-section">
+        <div className="home-section section">
             <div className="hero-section">
                 <div className="hero-wrapper">
                     <h1 className="header-hero">Welcome to Shinobix</h1>
-                    <span className="rain-lines"></span>
                     <div className="hero-desc">
                         <div className="sections-wrapper">
                             <p className="hero-text">
